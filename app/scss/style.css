@@ -1,0 +1,90 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.cardHolder {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4D8FAF;
+  text-align: center;
+  font-family: "Mansalva", cursive;
+  font-size: 50px;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  background-color: RGBA(45, 50, 53, 0.8);
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #777777;
+  font-family: "Lobster", cursive;
+}
+
+img {
+  height: 100px;
+  width: 30%;
+  margin: 0 35%;
+}
+
+.stars {
+  font-size: 20px;
+  font-family: "Signika", sans-serif;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+}
+
+.description {
+  font-size: 20px;
+  font-family: "Signika", sans-serif;
+  padding: 10px;
+  margin: 0;
+  height: 100px;
+}
+
+button {
+  width: 40%;
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Signika", sans-serif;
+  margin: 10% 30%;
+  border: 2px solid #4EAFD9;
+  background-image: url("../img/background.jpg");
+  background-position: center left;
+  color: #4EAFD9;
+}
+button:hover {
+  border: 2px solid #ffffff;
+}
+
+i {
+  font-size: 30px;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

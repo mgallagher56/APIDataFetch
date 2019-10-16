@@ -1,0 +1,10 @@
+{{#each (limit items 3)}}
+        <div class="card">
+        <h1 class="title">{{this.name}}</h1>
+        <img src="{{this.owner.avatar_url}}">
+        <p class="stars">⭐ : {{this.stargazers_count}}</p>
+        <p class="description">{{this.description}}</p>
+        <a class="repo" href="{{this.html_url}}"><button><i class="fab fa-github"></i>Go to GitHub Repo</button></a>
+    </div>
+{{/each}}
+
