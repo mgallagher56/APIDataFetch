@@ -55,6 +55,7 @@ img {
   font-family: 'Signika', sans-serif;
   padding: 20px 10px 0 10px;
   margin: 0 0 0 10px;
+  color: #FFFFFF;
 }
 
 .description {
@@ -63,6 +64,8 @@ img {
   padding: 10px;
   margin: 10px;
   height: 100px;
+  color: #FFFFFF;
+
 }
 
 button {
@@ -98,6 +101,5 @@ a {
   body{
     background-image: url("../img/backgrounMobile.jpg");
     background-position: center bottom;
-    background-size: cover;
   }
 }
