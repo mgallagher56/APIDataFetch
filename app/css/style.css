@@ -3,8 +3,9 @@
 
 body {
   background-image: url("../img/background.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed; }
 
 .container {
@@ -78,4 +79,6 @@ a {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-position: center; } }
+    background-image: url("../img/backgrounMobile.jpg");
+    background-position: center bottom;
+    background-size: cover; } }
