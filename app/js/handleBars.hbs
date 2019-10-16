@@ -1,4 +1,5 @@
-{{#each (limit items 3)}}
+<div class="cardHolder">
+ {{#each (limit items 3)}}
         <div class="card">
         <h1 class="title">{{this.name}}</h1>
         <img src="{{this.owner.avatar_url}}">
@@ -7,4 +8,5 @@
         <a class="repo" href="{{this.html_url}}"><button><i class="fab fa-github"></i>Go to GitHub Repo</button></a>
     </div>
 {{/each}}
+</div>
 

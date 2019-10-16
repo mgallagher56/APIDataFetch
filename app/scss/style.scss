@@ -2,8 +2,8 @@ $pfont: 20px;
 
 body {
   background-image: url('../img/background.jpg');
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 .container {
@@ -29,7 +29,7 @@ h1 {
   width: 350px;
   border-radius: 10px;
   float: left;
-  margin:20px;
+  margin: 20px;
   padding: 10px;
   background-color: RGBA(45, 50, 53, 0.8);
 }
