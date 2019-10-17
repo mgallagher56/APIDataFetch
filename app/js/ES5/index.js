@@ -4,7 +4,6 @@ fetch('https://api.github.com/search/repositories?q=language:javascript&sort=sta
   data = data.json();
   return data;
 }).then(function result(data) {
-  console.log(data);
   $.get('js/handleBars.hbs', function (source) {
     var template = Handlebars.compile(source);
     Handlebars.registerHelper('limit', function (arr, limit) {

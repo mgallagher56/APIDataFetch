@@ -1,19 +1,26 @@
 $pfont: 20px;
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-image: url('../img/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment:fixed ;
+  background-attachment:fixed;
 }
 
 .container {
-  width: 95%;
+  width: 1300px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+}
+
+.cardHolder {
+  float: left;
   margin: 0 auto;
   overflow: auto;
 }
@@ -23,14 +30,13 @@ h1 {
   text-align: center;
   font-family: 'Mansalva', cursive;
   font-size: 50px;
-  margin: 20px;
-  width: 100%;
+  margin: 20px auto;
 }
 
 .card {
-  width: 350px;
-  float: left;
-  margin: 20px 10px;
+  width: 300px;
+  height: 550px;
+  margin: 10px;
   border-radius: 10px;
   background-color: RGBA(45, 50, 53,0.8);
   list-style-type: none;
@@ -96,28 +102,38 @@ a {
   margin-left: 5px;
 }
 
+@media only screen and (max-width: 1366px) {
+  .container {
+    width: 1000px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width:960px;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
 
-  body{
-    background-image: url("../img/backgrounMobile.jpg");
+  .container {
+    width: 660px;
   }
 
-  ul {
-    padding: 20px 0 0 0;
+  body {
+    background-image: url('../img/backgrounMobile.jpg');
+    background-position: center;
+    height: 1080px;
   }
 
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    float: none;
-    height: 500px;
-  }
+}
 
-  .description {
-    height:130px
-  }
+@media only screen and (max-width: 480px) {
 
-  h1 {
-    margin: 20px auto;
+  .container {
+    width: 320px;
   }
 }

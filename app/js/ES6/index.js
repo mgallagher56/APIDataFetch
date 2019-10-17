@@ -5,7 +5,6 @@ fetch('https://api.github.com/search/repositories?q=language:javascript&sort=sta
             return data
         })
     .then(function result(data) {
-        console.log(data)
 
         $.get('js/handleBars.hbs', function (source) {
             var template = Handlebars.compile(source)
