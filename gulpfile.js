@@ -22,7 +22,7 @@ function sassCompile(cb){
 exports.sass = sassCompile
 
 function babelGulp(cb) {
-    return gulp.src("app/js/ES6/index.js")
+    return gulp.src("app/js/ES6/main.js")
         .pipe(babel())
         .pipe(gulp.dest("app/js/ES5"));
     cb()
